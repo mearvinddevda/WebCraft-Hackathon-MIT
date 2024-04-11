@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    /* font-family: "Work Sans", sans-serif; */
+    font-family: Roboto;
+
+}
+
+.main{
+    margin: 85px 110px;
+    color: rgb(137, 136, 136);
+
+}
+
+.hero-Section{
+    display: flex;
+
+}
+
+.repo-name{
+    color:rgb(45, 42, 42);
+    font-size: 35px;
+
+}
+.repo-name h1 >span{
+    color:rgb(90, 90, 90);
+    font-weight: 400;
+
+}
+
+.repo-intro h1{
+    color: rgb(137, 136, 136);
+    font-weight: 500;
+    margin:45px 0px;
+    font-size: 35px;
+}
+
+.detail-icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 85px 0px;
+}
+
+.img-admin img{
+    margin: 25px;
+
+
+}
+
+
+.repo-icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.icons img{
+    margin: auto;
+    margin-top: 0px;
+
+}
+
+.txt{
+    font-size: 32px;
+}
+.txt h4{
+    color: black;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.git-icon img{
+    height: 45px;
+}
+
+.line{
+    background-color: orangered;
+    width: 100%;
+    height: 24px;
+}
+
+@media(min-width: 360px) and (max-width: 1200px) {
+    .main{
+        text-align: center;
+
+    }
+    .detail-icons{
+        display: inline-flex;
+    }
+    .hero-Section{
+        justify-content: center;
+        flex-direction: column;
+        font-size: 18px;
+        text-align: left;
+    }
+    .repo-name{
+        font-size: 18px;
+        text-align: left;
+    }
+    .txt-area{
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        display: inline;
+        font-size: 12px;
+    }
+    .repo-icons{
+        flex-direction: column;
+        justify-content: center;
+        gap:0px        
+    }
+    .txt{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .icons{
+        max-width: fit-content;
+        gap: 10px;
+    }
+    .icons img{
+        margin: 5px;
+    }
+    .img-admin{
+        display: flex;
+        justify-content: center
+    }
+    .git-icon{
+        visibility: hidden;
+    }
+
+}
